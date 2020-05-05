@@ -46,7 +46,7 @@ public class DiscordMessage
 	boolean textToSpeech;
 	final List<DiscordEmbed> embeds = new ArrayList<>();
 
-	DiscordMessage(String username, String content, String avatar_url, DiscordEmbed embed)
+	public DiscordMessage(String username, String content, String avatar_url, DiscordEmbed embed)
 	{
 		this.username = username;
 		this.content = content;
